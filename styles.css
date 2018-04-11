@@ -38,6 +38,7 @@ h1 {
 	font-size: 20px;
 	font-style: italic;
 	color: #870006;
+	margin-top: 20px;
 	}
 #inputHeight {
 	font-family: 'Futura BQ';
@@ -94,7 +95,7 @@ h2:first-of-type {
 table,
 tr,
 td {
- border: 2px dashed white;
+ border: 4px dashed lightyellow;
 	}
 
 table {
