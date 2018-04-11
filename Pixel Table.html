@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'; >
+    <title>Pixel Art Maker!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<article id='fullPage'>	
+	<h1>Pixel Art Maker</h1>
+
+		<div id="chooseSize">
+
+		<h2>Choose Grid Size</h2>
+
+		<form id="sizePicker">
+			<input type="number" id="inputHeight" placeholder="Rows" name="height" min="1" >
+			<br>
+			<br>
+			<input type="number" id="inputWidth" placeholder="Columns" name="width" min="1">
+			<br>
+			<br>
+			<button onclick ="makeGrid()" type="button">Submit</button>
+		</form>
+
+    <h2>Pick A Color</h2>
+    <input type="color" id="colorPicker">
+
+    <h2>Design The Canvas</h2>
+
+	</div>
+
+		</article>
+
+		<div id="pixelDiv">
+
+    <table id="pixelCanvas"></table>
+
+		</div>
+
+	<footer id='footy'>
+			<p>Haqq Tertuliano &copy;Udacity Pixel Art Maker Project April 2018</p>
+	</footer> 	
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src='designs.js'></script>
+</body>
+</html>
