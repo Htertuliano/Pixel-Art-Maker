@@ -43,7 +43,7 @@ event listener to every table
 cell and changes their color on
 mouseover. Takes whever cell the 
 mouse is currently on and 
-changes its backgorund color
+changes its backgorund colors
 */
 		$('td').mouseover( function(e) {
 		e.stopPropagation(),
